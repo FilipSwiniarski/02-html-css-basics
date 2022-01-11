@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 5530px;
+  background-color: lightgray;
+}
+.wrapper {
+  height: 5530px;
+  width: 1440px;
+  /* left: calc((100% - 1440px) / 2); */
+  margin: auto;
+  top: 0px;
+  border-radius: 0px;
+  background: #ffffff;
+  position: relative;
+}
+.navbar {
+  height: 51px;
+  width: 1280px;
+  left: 80px;
+  top: 40px;
+  border-radius: 0px;
+  justify-content: space-between;
+}
