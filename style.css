@@ -4,6 +4,7 @@ body {
   height: 5530px;
   background-color: lightgray;
 }
+
 .wrapper {
   height: 5530px;
   width: 1440px;
@@ -13,12 +14,67 @@ body {
   border-radius: 0px;
   background: #ffffff;
   position: relative;
+  border: 1px solid black;
 }
+
 .navbar {
-  height: 51px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
   width: 1280px;
+  height: 51px;
   left: 80px;
   top: 40px;
-  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 1180px;
+  height: 559px;
+  left: 130px;
+  top: 171px;
+  border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 1px 0px 1px;
+
+  position: absolute;
+  width: 1438px;
+  height: 3713.47px;
+  left: 0px;
+  top: 850px;
+  border: 1px solid red;
+}
+
+.banner {
+  position: absolute;
+  width: 900px;
+  height: 296px;
+  top: 4784px;
+  left: 270px;
+  background-color: #2f2e41;
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 598px;
+  top: 4932px;
+  left: 0px;
+  background: #ecebff;
 }
