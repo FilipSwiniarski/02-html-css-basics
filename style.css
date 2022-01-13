@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&display=swap");
 body {
   margin: 0;
   width: 100%;
@@ -201,7 +202,7 @@ body {
 .hero-text {
   display: flex;
 }
-#home h3 {
+#home h1 {
   display: flex;
   height: 264px;
   width: 489x;
@@ -215,7 +216,7 @@ body {
   line-height: 88px;
   letter-spacing: -1px;
   text-align: left;
-  color: #2F2E41;
+  color: #2f2e41;
 }
 
 #home p {
@@ -255,9 +256,83 @@ body {
   letter-spacing: 0px;
 }
 
-.hero-image{
+.hero-image {
   width: 642px;
   height: 559px;
 }
 
-/* main section */
+/* hero2 / section  */
+
+.hero2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1180px;
+  height: 442.78px;
+
+  top: 255.42px;
+}
+
+.hero2-image {
+  display: flex;
+  width: 600px;
+  height: 443px;
+}
+
+.hero2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 400px;
+  height: 309px;
+}
+
+.hero2-content h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #2f2e41;
+}
+
+.hero2-content p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #9893a3;
+}
+
+.hero2-content a {
+  all: unset;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.hero2-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: #9e99ff;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+  text-decoration-style: solid;
+}
+
+.hero2-button {
+  width: 90px;
+  height: 35px;
+  background: linear-gradient(0deg, #dfddff 50%, #ffffff 50%);
+}
